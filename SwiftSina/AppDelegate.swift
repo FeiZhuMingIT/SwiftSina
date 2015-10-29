@@ -15,7 +15,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        window = UIWindow()
+        let vc = GZTabBarVc()
+        vc.view.backgroundColor = UIColor.orangeColor()
+        window?.rootViewController = vc
+        window?.makeKeyAndVisible()
         return true
     }
 

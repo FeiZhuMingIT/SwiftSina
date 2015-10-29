@@ -7,21 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51313A121BE100E700C60C38 /* GZOauthViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51313A111BE100E700C60C38 /* GZOauthViewVC.swift */; settings = {ASSET_TAGS = (); }; };
+		51313A141BE117BB00C60C38 /* GZAFNetWordTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51313A131BE117BB00C60C38 /* GZAFNetWordTool.swift */; settings = {ASSET_TAGS = (); }; };
+		516C53BF1BE12FA2008603B5 /* GZUserAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516C53BE1BE12FA2008603B5 /* GZUserAccount.swift */; settings = {ASSET_TAGS = (); }; };
 		51C117671BDFD85B00091C67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C117661BDFD85B00091C67 /* AppDelegate.swift */; };
-		51C117691BDFD85B00091C67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C117681BDFD85B00091C67 /* ViewController.swift */; };
-		51C1176C1BDFD85B00091C67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51C1176A1BDFD85B00091C67 /* Main.storyboard */; };
 		51C1176E1BDFD85B00091C67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51C1176D1BDFD85B00091C67 /* Assets.xcassets */; };
-		51C117711BDFD85B00091C67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51C1176F1BDFD85B00091C67 /* LaunchScreen.storyboard */; };
+		51C117971BDFDB5800091C67 /* GZTabBarVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C117961BDFDB5800091C67 /* GZTabBarVc.swift */; settings = {ASSET_TAGS = (); }; };
+		51C117991BDFDBA400091C67 /* GZBaseTableViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C117981BDFDBA400091C67 /* GZBaseTableViewVC.swift */; settings = {ASSET_TAGS = (); }; };
+		51C1179B1BDFDBCD00091C67 /* GZHomeTableViewVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C1179A1BDFDBCD00091C67 /* GZHomeTableViewVc.swift */; settings = {ASSET_TAGS = (); }; };
+		51C1179D1BDFDBE900091C67 /* GZDiscoverTableViewVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C1179C1BDFDBE900091C67 /* GZDiscoverTableViewVc.swift */; settings = {ASSET_TAGS = (); }; };
+		51C1179F1BDFDBFF00091C67 /* GZMessageTabbleViewVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C1179E1BDFDBFF00091C67 /* GZMessageTabbleViewVc.swift */; settings = {ASSET_TAGS = (); }; };
+		51C117A11BDFDC1600091C67 /* GZProfileTableViewVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C117A01BDFDC1600091C67 /* GZProfileTableViewVc.swift */; settings = {ASSET_TAGS = (); }; };
+		51C117A51BDFE59100091C67 /* GZLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C117A41BDFE59100091C67 /* GZLoginView.swift */; settings = {ASSET_TAGS = (); }; };
+		5A77A89F652499319B0F99C6 /* Pods_SwiftSina.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F91B8F58D2EF380DE93FCD42 /* Pods_SwiftSina.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1CF9098B3AE3E3693BD7AC52 /* Pods-SwiftSina.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftSina.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftSina/Pods-SwiftSina.debug.xcconfig"; sourceTree = "<group>"; };
+		445BA4F45DE93EB4FE469154 /* Pods-SwiftSina.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftSina.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftSina/Pods-SwiftSina.release.xcconfig"; sourceTree = "<group>"; };
+		51313A111BE100E700C60C38 /* GZOauthViewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GZOauthViewVC.swift; path = ../../Main/Controller/GZOauthViewVC.swift; sourceTree = "<group>"; };
+		51313A131BE117BB00C60C38 /* GZAFNetWordTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GZAFNetWordTool.swift; sourceTree = "<group>"; };
+		516C53BE1BE12FA2008603B5 /* GZUserAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GZUserAccount.swift; sourceTree = "<group>"; };
 		51C117631BDFD85B00091C67 /* SwiftSina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftSina.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51C117661BDFD85B00091C67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		51C117681BDFD85B00091C67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		51C1176B1BDFD85B00091C67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		51C1176D1BDFD85B00091C67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		51C117701BDFD85B00091C67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51C117721BDFD85B00091C67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51C117961BDFDB5800091C67 /* GZTabBarVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GZTabBarVc.swift; sourceTree = "<group>"; };
+		51C117981BDFDBA400091C67 /* GZBaseTableViewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GZBaseTableViewVC.swift; path = ../View/GZBaseTableViewVC.swift; sourceTree = "<group>"; };
+		51C1179A1BDFDBCD00091C67 /* GZHomeTableViewVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GZHomeTableViewVc.swift; sourceTree = "<group>"; };
+		51C1179C1BDFDBE900091C67 /* GZDiscoverTableViewVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GZDiscoverTableViewVc.swift; sourceTree = "<group>"; };
+		51C1179E1BDFDBFF00091C67 /* GZMessageTabbleViewVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GZMessageTabbleViewVc.swift; sourceTree = "<group>"; };
+		51C117A01BDFDC1600091C67 /* GZProfileTableViewVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GZProfileTableViewVc.swift; sourceTree = "<group>"; };
+		51C117A41BDFE59100091C67 /* GZLoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GZLoginView.swift; sourceTree = "<group>"; };
+		F91B8F58D2EF380DE93FCD42 /* Pods_SwiftSina.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftSina.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +47,60 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A77A89F652499319B0F99C6 /* Pods_SwiftSina.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		50F92803756790F3EF79C841 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F91B8F58D2EF380DE93FCD42 /* Pods_SwiftSina.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		51564FA01BE11C9F00A11F1C /* Oauth(授权) */ = {
+			isa = PBXGroup;
+			children = (
+				51564FA11BE11C9F00A11F1C /* Controller */,
+				51564FA21BE11C9F00A11F1C /* Model */,
+				51564FA31BE11C9F00A11F1C /* View */,
+			);
+			path = "Oauth(授权)";
+			sourceTree = "<group>";
+		};
+		51564FA11BE11C9F00A11F1C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				51313A111BE100E700C60C38 /* GZOauthViewVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		51564FA21BE11C9F00A11F1C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		51564FA31BE11C9F00A11F1C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		51C1175A1BDFD85B00091C67 = {
 			isa = PBXGroup;
 			children = (
 				51C117651BDFD85B00091C67 /* SwiftSina */,
 				51C117641BDFD85B00091C67 /* Products */,
+				F76CA7DB48812E17C849C315 /* Pods */,
+				50F92803756790F3EF79C841 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +116,269 @@
 			isa = PBXGroup;
 			children = (
 				51C117661BDFD85B00091C67 /* AppDelegate.swift */,
-				51C117681BDFD85B00091C67 /* ViewController.swift */,
-				51C1176A1BDFD85B00091C67 /* Main.storyboard */,
+				51C117781BDFDAB300091C67 /* Classes */,
 				51C1176D1BDFD85B00091C67 /* Assets.xcassets */,
-				51C1176F1BDFD85B00091C67 /* LaunchScreen.storyboard */,
 				51C117721BDFD85B00091C67 /* Info.plist */,
 			);
 			path = SwiftSina;
+			sourceTree = "<group>";
+		};
+		51C117781BDFDAB300091C67 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				51C117791BDFDAB300091C67 /* Extension */,
+				51C1177A1BDFDAB300091C67 /* Library */,
+				51C1177B1BDFDAB300091C67 /* Model */,
+				51C1177C1BDFDAB300091C67 /* Module */,
+				51C117951BDFDAB300091C67 /* Tool */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		51C117791BDFDAB300091C67 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		51C1177A1BDFDAB300091C67 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		51C1177B1BDFDAB300091C67 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				516C53BE1BE12FA2008603B5 /* GZUserAccount.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		51C1177C1BDFDAB300091C67 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				51564FA01BE11C9F00A11F1C /* Oauth(授权) */,
+				51C117911BDFDAB300091C67 /* Test */,
+				51C117851BDFDAB300091C67 /* Main */,
+				51C117811BDFDAB300091C67 /* Home */,
+				51C1177D1BDFDAB300091C67 /* Discover */,
+				51C117891BDFDAB300091C67 /* Message */,
+				51C1178D1BDFDAB300091C67 /* Profile */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		51C1177D1BDFDAB300091C67 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				51C1177E1BDFDAB300091C67 /* Controller */,
+				51C1177F1BDFDAB300091C67 /* Model */,
+				51C117801BDFDAB300091C67 /* View */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		51C1177E1BDFDAB300091C67 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				51C1179C1BDFDBE900091C67 /* GZDiscoverTableViewVc.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		51C1177F1BDFDAB300091C67 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		51C117801BDFDAB300091C67 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		51C117811BDFDAB300091C67 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				51C117821BDFDAB300091C67 /* Controller */,
+				51C117831BDFDAB300091C67 /* Model */,
+				51C117841BDFDAB300091C67 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		51C117821BDFDAB300091C67 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				51C1179A1BDFDBCD00091C67 /* GZHomeTableViewVc.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		51C117831BDFDAB300091C67 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		51C117841BDFDAB300091C67 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		51C117851BDFDAB300091C67 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				51C117861BDFDAB300091C67 /* Controller */,
+				51C117871BDFDAB300091C67 /* Model */,
+				51C117881BDFDAB300091C67 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		51C117861BDFDAB300091C67 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				51C117961BDFDB5800091C67 /* GZTabBarVc.swift */,
+				51C117981BDFDBA400091C67 /* GZBaseTableViewVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		51C117871BDFDAB300091C67 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		51C117881BDFDAB300091C67 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				51C117A41BDFE59100091C67 /* GZLoginView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		51C117891BDFDAB300091C67 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				51C1178A1BDFDAB300091C67 /* Controller */,
+				51C1178B1BDFDAB300091C67 /* Model */,
+				51C1178C1BDFDAB300091C67 /* View */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		51C1178A1BDFDAB300091C67 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				51C1179E1BDFDBFF00091C67 /* GZMessageTabbleViewVc.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		51C1178B1BDFDAB300091C67 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		51C1178C1BDFDAB300091C67 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		51C1178D1BDFDAB300091C67 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				51C1178E1BDFDAB300091C67 /* Controller */,
+				51C1178F1BDFDAB300091C67 /* Model */,
+				51C117901BDFDAB300091C67 /* View */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		51C1178E1BDFDAB300091C67 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				51C117A01BDFDC1600091C67 /* GZProfileTableViewVc.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		51C1178F1BDFDAB300091C67 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		51C117901BDFDAB300091C67 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		51C117911BDFDAB300091C67 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				51C117921BDFDAB300091C67 /* Controller */,
+				51C117931BDFDAB300091C67 /* Model */,
+				51C117941BDFDAB300091C67 /* View */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		51C117921BDFDAB300091C67 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		51C117931BDFDAB300091C67 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		51C117941BDFDAB300091C67 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		51C117951BDFDAB300091C67 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				51313A131BE117BB00C60C38 /* GZAFNetWordTool.swift */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		F76CA7DB48812E17C849C315 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1CF9098B3AE3E3693BD7AC52 /* Pods-SwiftSina.debug.xcconfig */,
+				445BA4F45DE93EB4FE469154 /* Pods-SwiftSina.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +388,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 51C117751BDFD85B00091C67 /* Build configuration list for PBXNativeTarget "SwiftSina" */;
 			buildPhases = (
+				60848D0EBB5BEE75BEC7A70F /* Check Pods Manifest.lock */,
 				51C1175F1BDFD85B00091C67 /* Sources */,
 				51C117601BDFD85B00091C67 /* Frameworks */,
 				51C117611BDFD85B00091C67 /* Resources */,
+				AD5D339D0CDA34822F8EBC3B /* Embed Pods Frameworks */,
+				56086EDECF9FCCB60D2DD47F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,44 +442,80 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51C117711BDFD85B00091C67 /* LaunchScreen.storyboard in Resources */,
 				51C1176E1BDFD85B00091C67 /* Assets.xcassets in Resources */,
-				51C1176C1BDFD85B00091C67 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		56086EDECF9FCCB60D2DD47F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftSina/Pods-SwiftSina-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60848D0EBB5BEE75BEC7A70F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AD5D339D0CDA34822F8EBC3B /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftSina/Pods-SwiftSina-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		51C1175F1BDFD85B00091C67 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51C117691BDFD85B00091C67 /* ViewController.swift in Sources */,
+				51C1179D1BDFDBE900091C67 /* GZDiscoverTableViewVc.swift in Sources */,
+				51313A141BE117BB00C60C38 /* GZAFNetWordTool.swift in Sources */,
+				51C117A51BDFE59100091C67 /* GZLoginView.swift in Sources */,
+				51C1179B1BDFDBCD00091C67 /* GZHomeTableViewVc.swift in Sources */,
+				51C1179F1BDFDBFF00091C67 /* GZMessageTabbleViewVc.swift in Sources */,
 				51C117671BDFD85B00091C67 /* AppDelegate.swift in Sources */,
+				51313A121BE100E700C60C38 /* GZOauthViewVC.swift in Sources */,
+				516C53BF1BE12FA2008603B5 /* GZUserAccount.swift in Sources */,
+				51C117991BDFDBA400091C67 /* GZBaseTableViewVC.swift in Sources */,
+				51C117A11BDFDC1600091C67 /* GZProfileTableViewVc.swift in Sources */,
+				51C117971BDFDB5800091C67 /* GZTabBarVc.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		51C1176A1BDFD85B00091C67 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				51C1176B1BDFD85B00091C67 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		51C1176F1BDFD85B00091C67 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				51C117701BDFD85B00091C67 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		51C117731BDFD85B00091C67 /* Debug */ = {
@@ -247,8 +603,9 @@
 		};
 		51C117761BDFD85B00091C67 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CF9098B3AE3E3693BD7AC52 /* Pods-SwiftSina.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
 				INFOPLIST_FILE = SwiftSina/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wzz.SwiftSina;
@@ -258,8 +615,9 @@
 		};
 		51C117771BDFD85B00091C67 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 445BA4F45DE93EB4FE469154 /* Pods-SwiftSina.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
 				INFOPLIST_FILE = SwiftSina/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wzz.SwiftSina;
@@ -286,6 +644,7 @@
 				51C117771BDFD85B00091C67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
